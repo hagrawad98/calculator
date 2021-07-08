@@ -1,0 +1,131 @@
+/* global styles */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.cal {
+    position: relative;
+}
+
+.calc .frstpage {
+    float: left;
+    width: 50%;
+    background-color: #1b1b3bec;
+    overflow: hidden;
+    min-height: 666px;
+}
+
+.calc .frstpage h2 {
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(255, 140, 0, 0.87);
+    font-size: 27px;
+    margin-top: 3px;
+}
+
+.calc .frstpage p {
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.815);
+    font-style: italic;
+    font-size: 25px;
+}
+
+.calc .imgs {
+    text-align: center;
+}
+
+.calc.imgs ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.calc .imgs ul li {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 6px;
+    margin-bottom: 18px;
+}
+
+.calc .imgs ul li img {
+    width: 70px;
+    height: 70px;
+}
+
+.calc .form {
+    text-align: center;
+}
+
+.calc .form label {
+    color: rgba(255, 255, 255, 0.801);
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.calc .form input {
+    margin-left: 25%;
+    display: block;
+    margin-bottom: 10px;
+    width: 50%;
+    height: 30px;
+}
+
+.calc .form button {
+    border: hidden;
+    background-color: #a8a8d1;
+    color: #1b1b3baf;
+    border-radius: 50%;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 20px;
+    margin: 25px;
+    font-size: 20px;
+
+
+}
+
+.calc .form button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 140, 0, 0.877);
+    width: 130px;
+}
+
+footer {
+    color: darkorange;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+.calc .scndpage {
+    float: left;
+    width: 50%;
+    background-color: #a8a8d1;
+    text-align: center;
+    min-height: 666px;
+}
+
+.calc .scndpage img {
+    width: 200px;
+    height: 200px;
+}
+
+.calc .scndpage #flname {
+    color: #1b1b3be1;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.calc .scndpage h3 {
+    color: #1b1b3be1;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-top: 20px;
+}

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculate your age </title>
+    <link rel="icon" href="./img/calc.png">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/css.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/jquery-3.6.0.js"></script>
+    <script src="./js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</head>
+<!-- body start -->
+
+<body>
+
+    <!-- start main -->
+    <main class="container-fluid">
+        <div class="row calc">
+            <div class="col frstpage">
+                <h2> hey friend </h2>
+                <p> welcome to the age calculator</p>
+                <div class="imgs">
+                    <ul class="list-unstyled">
+                        <li class="list-inline-item"><img src="./img/qm.png"></li>
+                        <li class="list-inline-item"><img src="./img/calc.png"></li>
+                        <li class="list-inline-item"><img src="img/pic.png"></li>
+                    </ul>
+                </div>
+                <div class="form">
+                    <form>
+                        <label> enter your first name</label>
+                        <input id="fname" type="text">
+                        <label> enter your last name</label>
+                        <input id="lname" type="text">
+                        <label> enter your birthdate</label>
+                        <input type="date" id="dob" placeholder="day/month/year">
+                    </form>
+                    <button id="button" onclick="myage()">result</button>
+                    <button>reset</button>
+                    <footer>
+                        <marquee> 2021 calculator all copyright &copy; designed by hagar awad </marquee>
+                    </footer>
+                </div>
+            </div>
+            <div class="col scndpage">
+                <img src="img/hey.png" class="wow rubberBand">
+                <p id="flname"></p>
+                <h3 id="result"></h3>
+
+            </div>
+        </div>
+        <!-- end header -->
+    </main>
+    <script src="./js/js.js"></script>
+</body>
+<!-- body end -->
+
+</html>
